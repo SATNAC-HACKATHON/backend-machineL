@@ -1,0 +1,41 @@
+alarm_id,raised_timestamp,cleared_timestamp,operator,site_id,cell_id,domain,severity,alarm_code,description,probable_cause,duplicate_group_id,is_duplicate_or_correlated,incident_id
+TEL-ALM-NOISE-0011,2026-09-14T01:41,2026-09-14T03:41,Telkom,JHB-SOW-018,JHB-SOW-018-B,RAN,minor,ALM-VSWR-WARN,Antenna VSWR warning,Independent background alarm,,false,
+TEL-ALM-NOISE-0002,2026-09-14T02:34,2026-09-14T03:04,Telkom,JHB-SOW-018,,Power,minor,ALM-AC-MAINS,AC mains fluctuation,Independent background alarm,,false,
+TEL-ALM-NOISE-0010,2026-09-14T05:12,2026-09-14T05:27,Telkom,JHB-SOW-018,,Site,warning,ALM-FAN-SPEED,Fan speed below nominal,Independent background alarm,,false,
+TEL-ALM-NOISE-0019,2026-09-14T06:08,2026-09-14T06:53,Telkom,JHB-SOW-018,JHB-SOW-018-C,RAN,minor,ALM-VSWR-WARN,Antenna VSWR warning,Independent background alarm,,false,
+TEL-ALM-NOISE-0012,2026-09-14T07:05,2026-09-14T08:05,Telkom,JHB-SOW-018,,Site,warning,ALM-DOOR-OPEN,Cabinet door open,Independent background alarm,,false,
+TEL-ALM-NOISE-0014,2026-09-14T08:19,2026-09-14T09:19,Telkom,CPT-BEL-007,,Site,warning,ALM-FAN-SPEED,Fan speed below nominal,Independent background alarm,,false,
+TEL-ALM-NOISE-0028,2026-09-14T09:54,2026-09-14T10:24,Telkom,JHB-CBD-003,,Power,minor,ALM-AC-MAINS,AC mains fluctuation,Independent background alarm,,false,
+TEL-ALM-NOISE-0008,2026-09-14T13:52,2026-09-14T14:07,Telkom,JHB-CBD-003,,Site,warning,ALM-FAN-SPEED,Fan speed below nominal,Independent background alarm,,false,
+TEL-ALM-NOISE-0034,2026-09-14T16:56,2026-09-14T17:11,Telkom,PTA-HAT-011,,Site,warning,ALM-DOOR-OPEN,Cabinet door open,Independent background alarm,,false,
+TEL-ALM-NOISE-0022,2026-09-14T16:57,2026-09-14T17:57,Telkom,PTA-HAT-011,PTA-HAT-011-C,RAN,minor,ALM-VSWR-WARN,Antenna VSWR warning,Independent background alarm,,false,
+TEL-ALM-NOISE-0026,2026-09-14T20:26,2026-09-14T21:26,Telkom,JHB-SOW-018,,Site,warning,ALM-FAN-SPEED,Fan speed below nominal,Independent background alarm,,false,
+TEL-ALM-NOISE-0006,2026-09-14T21:24,2026-09-14T23:24,Telkom,CPT-BEL-007,,Site,warning,ALM-DOOR-OPEN,Cabinet door open,Independent background alarm,,false,
+TEL-ALM-NOISE-0018,2026-09-14T21:50,2026-09-14T23:50,Telkom,JHB-SOW-018,,Power,minor,ALM-AC-MAINS,AC mains fluctuation,Independent background alarm,,false,
+TEL-ALM-NOISE-0025,2026-09-14T22:25,2026-09-14T23:55,Telkom,JHB-CBD-003,,Site,warning,ALM-FAN-SPEED,Fan speed below nominal,Independent background alarm,,false,
+TEL-ALM-NOISE-0007,2026-09-14T23:19,2026-09-15T00:49,Telkom,JHB-SOW-018,,Power,minor,ALM-AC-MAINS,AC mains fluctuation,Independent background alarm,,false,
+TEL-ALM-NOISE-0020,2026-09-15T00:43,2026-09-15T02:43,Telkom,PTA-HAT-011,PTA-HAT-011-C,RAN,minor,ALM-VSWR-WARN,Antenna VSWR warning,Independent background alarm,,false,
+TEL-ALM-NOISE-0003,2026-09-15T01:11,2026-09-15T01:41,Telkom,CPT-BEL-007,,Power,minor,ALM-AC-MAINS,AC mains fluctuation,Independent background alarm,,false,
+TEL-ALM-NOISE-0024,2026-09-15T01:29,2026-09-15T03:29,Telkom,JHB-CBD-003,JHB-CBD-003-B,RAN,minor,ALM-VSWR-WARN,Antenna VSWR warning,Independent background alarm,,false,
+TEL-ALM-NOISE-0013,2026-09-15T01:42,2026-09-15T02:27,Telkom,JHB-CBD-003,JHB-CBD-003-A,RAN,minor,ALM-VSWR-WARN,Antenna VSWR warning,Independent background alarm,,false,
+TEL-ALM-NOISE-0005,2026-09-15T04:30,2026-09-15T05:30,Telkom,PTA-HAT-011,,Site,warning,ALM-DOOR-OPEN,Cabinet door open,Independent background alarm,,false,
+TEL-ALM-NOISE-0023,2026-09-15T07:58,2026-09-15T08:28,Telkom,PTA-HAT-011,,Power,minor,ALM-AC-MAINS,AC mains fluctuation,Independent background alarm,,false,
+TEL-ALM-20260915-0001,2026-09-15T08:56,2026-09-15T14:19,Telkom,JHB-CBD-003,,Transport,major,ALM-MW-ETH-CRC,Microwave Ethernet CRC errors,Congestion or link impairment,INC-20260915-JHB-CBD-003-B,true,INC-20260915-JHB-CBD-003-B
+TEL-ALM-20260915-0002,2026-09-15T09:01,2026-09-15T14:00,Telkom,JHB-CBD-003,,Transport,critical,ALM-MW-LINK-DEG,Microwave link degraded,Congestion or link impairment,INC-20260915-JHB-CBD-003-B,true,INC-20260915-JHB-CBD-003-B
+TEL-ALM-20260915-0003,2026-09-15T09:06,2026-09-15T14:03,Telkom,JHB-CBD-003,JHB-CBD-003-B,RAN/Transport,major,ALM-S1-U-PATH,S1-U packet loss high,Congestion or link impairment,INC-20260915-JHB-CBD-003-B,true,INC-20260915-JHB-CBD-003-B
+TEL-ALM-20260915-0004,2026-09-15T09:21,2026-09-15T14:03,Telkom,JHB-CBD-003,JHB-CBD-003-B,RAN,major,ALM-RRC-FAIL-HIGH,RRC connection failures high,Congestion or link impairment,INC-20260915-JHB-CBD-003-B,true,INC-20260915-JHB-CBD-003-B
+TEL-ALM-20260915-0005,2026-09-15T09:25,2026-09-15T14:21,Telkom,JHB-CBD-003,JHB-CBD-003-B,RAN,major,ALM-ERAB-DROP-HIGH,E-RAB abnormal release rate high,Congestion or link impairment,INC-20260915-JHB-CBD-003-B,true,INC-20260915-JHB-CBD-003-B
+TEL-ALM-20260915-0006,2026-09-15T09:33,2026-09-15T13:53,Telkom,JHB-CBD-003,JHB-CBD-003-B,RAN,minor,ALM-CELL-THR-DROP,Cell throughput below baseline,Congestion or link impairment,INC-20260915-JHB-CBD-003-B,true,INC-20260915-JHB-CBD-003-B
+TEL-ALM-NOISE-0016,2026-09-15T10:16,2026-09-15T12:16,Telkom,PTA-HAT-011,,Site,warning,ALM-FAN-SPEED,Fan speed below nominal,Independent background alarm,,false,
+TEL-ALM-NOISE-0004,2026-09-15T13:04,2026-09-15T13:49,Telkom,JHB-CBD-003,,Site,warning,ALM-DOOR-OPEN,Cabinet door open,Independent background alarm,,false,
+TEL-ALM-NOISE-0030,2026-09-15T14:13,2026-09-15T16:13,Telkom,JHB-SOW-018,JHB-SOW-018-A,RAN,minor,ALM-VSWR-WARN,Antenna VSWR warning,Independent background alarm,,false,
+TEL-ALM-NOISE-0027,2026-09-15T15:12,2026-09-15T17:12,Telkom,CPT-BEL-007,CPT-BEL-007-A,RAN,minor,ALM-VSWR-WARN,Antenna VSWR warning,Independent background alarm,,false,
+TEL-ALM-NOISE-0009,2026-09-15T16:41,2026-09-15T17:41,Telkom,CPT-BEL-007,,Site,warning,ALM-DOOR-OPEN,Cabinet door open,Independent background alarm,,false,
+TEL-ALM-NOISE-0001,2026-09-15T16:52,2026-09-15T17:37,Telkom,PTA-HAT-011,,Site,warning,ALM-DOOR-OPEN,Cabinet door open,Independent background alarm,,false,
+TEL-ALM-NOISE-0015,2026-09-15T17:03,2026-09-15T17:48,Telkom,PTA-HAT-011,,Power,minor,ALM-AC-MAINS,AC mains fluctuation,Independent background alarm,,false,
+TEL-ALM-NOISE-0029,2026-09-15T17:13,2026-09-15T17:28,Telkom,CPT-BEL-007,,Site,warning,ALM-FAN-SPEED,Fan speed below nominal,Independent background alarm,,false,
+TEL-ALM-NOISE-0032,2026-09-15T20:50,2026-09-15T22:50,Telkom,PTA-HAT-011,,Power,minor,ALM-AC-MAINS,AC mains fluctuation,Independent background alarm,,false,
+TEL-ALM-NOISE-0017,2026-09-15T21:22,2026-09-15T21:37,Telkom,JHB-CBD-003,,Power,minor,ALM-AC-MAINS,AC mains fluctuation,Independent background alarm,,false,
+TEL-ALM-NOISE-0031,2026-09-15T21:47,2026-09-15T22:17,Telkom,CPT-BEL-007,,Site,warning,ALM-DOOR-OPEN,Cabinet door open,Independent background alarm,,false,
+TEL-ALM-NOISE-0021,2026-09-15T23:00,2026-09-16T00:30,Telkom,JHB-CBD-003,,Site,warning,ALM-FAN-SPEED,Fan speed below nominal,Independent background alarm,,false,
+TEL-ALM-NOISE-0033,2026-09-15T23:22,2026-09-16T00:52,Telkom,JHB-CBD-003,,Site,warning,ALM-DOOR-OPEN,Cabinet door open,Independent background alarm,,false,

@@ -1,0 +1,23 @@
+event_id,timestamp,operator,site_id,cell_id,domain,event_type,object_name,change_summary,changed_by,topology_parent,azimuth_deg,mechanical_tilt_deg,electrical_tilt_deg,incident_id
+INV-CELL-0001,2026-09-14T00:00,Telkom,JHB-CBD-003,JHB-CBD-003-A,RAN,inventory_snapshot,JHB-CBD-003-A,LTE1800 sector configured with 20 MHz bandwidth,inventory_sync,MW-JHB-CBD-HUB-01,35,2,12,
+INV-CELL-0002,2026-09-14T00:00,Telkom,JHB-CBD-003,JHB-CBD-003-B,RAN,inventory_snapshot,JHB-CBD-003-B,LTE1800 sector configured with 20 MHz bandwidth,inventory_sync,MW-JHB-CBD-HUB-01,155,2,13,
+INV-CELL-0003,2026-09-14T00:00,Telkom,JHB-CBD-003,JHB-CBD-003-C,RAN,inventory_snapshot,JHB-CBD-003-C,LTE1800 sector configured with 20 MHz bandwidth,inventory_sync,MW-JHB-CBD-HUB-01,275,2,12,
+INV-CELL-0004,2026-09-14T00:00,Telkom,JHB-SOW-018,JHB-SOW-018-A,RAN,inventory_snapshot,JHB-SOW-018-A,LTE2100 sector configured with 15 MHz bandwidth,inventory_sync,MW-JHB-SOW-HUB-02,20,3,10,
+INV-CELL-0005,2026-09-14T00:00,Telkom,JHB-SOW-018,JHB-SOW-018-B,RAN,inventory_snapshot,JHB-SOW-018-B,LTE2100 sector configured with 15 MHz bandwidth,inventory_sync,MW-JHB-SOW-HUB-02,140,3,11,
+INV-CELL-0006,2026-09-14T00:00,Telkom,JHB-SOW-018,JHB-SOW-018-C,RAN,inventory_snapshot,JHB-SOW-018-C,LTE2100 sector configured with 15 MHz bandwidth,inventory_sync,MW-JHB-SOW-HUB-02,260,3,10,
+INV-CELL-0007,2026-09-14T00:00,Telkom,PTA-HAT-011,PTA-HAT-011-A,RAN,inventory_snapshot,PTA-HAT-011-A,LTE2600 sector configured with 20 MHz bandwidth,inventory_sync,FIB-PTA-HAT-RING-01,60,1,8,
+INV-CELL-0008,2026-09-14T00:00,Telkom,PTA-HAT-011,PTA-HAT-011-B,RAN,inventory_snapshot,PTA-HAT-011-B,LTE2600 sector configured with 20 MHz bandwidth,inventory_sync,FIB-PTA-HAT-RING-01,180,1,8,
+INV-CELL-0009,2026-09-14T00:00,Telkom,PTA-HAT-011,PTA-HAT-011-C,RAN,inventory_snapshot,PTA-HAT-011-C,LTE2600 sector configured with 20 MHz bandwidth,inventory_sync,FIB-PTA-HAT-RING-01,300,1,8,
+INV-CELL-0010,2026-09-14T00:00,Telkom,CPT-BEL-007,CPT-BEL-007-A,RAN,inventory_snapshot,CPT-BEL-007-A,LTE1800 sector configured with 20 MHz bandwidth,inventory_sync,FIB-CPT-BEL-RING-04,40,2,9,
+INV-CELL-0011,2026-09-14T00:00,Telkom,CPT-BEL-007,CPT-BEL-007-B,RAN,inventory_snapshot,CPT-BEL-007-B,LTE1800 sector configured with 20 MHz bandwidth,inventory_sync,FIB-CPT-BEL-RING-04,160,2,10,
+INV-CELL-0012,2026-09-14T00:00,Telkom,CPT-BEL-007,CPT-BEL-007-C,RAN,inventory_snapshot,CPT-BEL-007-C,LTE1800 sector configured with 20 MHz bandwidth,inventory_sync,FIB-CPT-BEL-RING-04,280,2,9,
+CFG-NOISE-0002,2026-09-14T01:14,Telkom,PTA-HAT-011,PTA-HAT-011-A,RAN,pci_audit,PTA-HAT-011-A,PCI consistency check completed,config_audit,FIB-PTA-HAT-RING-01,60,1,8,
+CFG-NOISE-0008,2026-09-14T01:49,Telkom,JHB-CBD-003,JHB-CBD-003-B,RAN,pci_audit,JHB-CBD-003-B,Neighbor relation audit completed without action,config_audit,MW-JHB-CBD-HUB-01,155,2,13,
+CFG-NOISE-0004,2026-09-14T05:32,Telkom,CPT-BEL-007,CPT-BEL-007-C,RAN,parameter_audit,CPT-BEL-007-C,No material configuration change detected,config_audit,FIB-CPT-BEL-RING-04,280,2,9,
+CFG-NOISE-0001,2026-09-14T18:14,Telkom,JHB-SOW-018,JHB-SOW-018-B,RAN,neighbor_relation_update,JHB-SOW-018-B,PCI consistency check completed,config_audit,MW-JHB-SOW-HUB-02,140,3,11,
+CFG-NOISE-0005,2026-09-15T04:32,Telkom,JHB-CBD-003,JHB-CBD-003-A,RAN,parameter_audit,JHB-CBD-003-A,No material configuration change detected,config_audit,MW-JHB-CBD-HUB-01,35,2,12,
+CFG-NOISE-0007,2026-09-15T05:48,Telkom,JHB-SOW-018,JHB-SOW-018-B,RAN,pci_audit,JHB-SOW-018-B,Neighbor relation audit completed without action,config_audit,MW-JHB-SOW-HUB-02,140,3,11,
+CFG-20260915-04521,2026-09-15T08:13,Telkom,JHB-CBD-003,JHB-CBD-003-B,Transport,config_change,MW-JHB-CBD-HUB-01 protection path,Protection route preference changed from fiber primary to microwave secondary during planned maintenance,noc_automation,MW-JHB-CBD-HUB-01,155,2,13,INC-20260915-JHB-CBD-003-B
+TOPO-20260915-017,2026-09-15T08:35,Telkom,JHB-CBD-003,,Transport,topology_state,MW-JHB-CBD-HUB-01,Transport path state changed to degraded; increased discard packets seen on serving path,network_monitor,CORE-JHB-IP-EDGE-02,,,,INC-20260915-JHB-CBD-003-B
+CFG-NOISE-0006,2026-09-15T10:55,Telkom,JHB-SOW-018,JHB-SOW-018-A,RAN,parameter_audit,JHB-SOW-018-A,Neighbor relation audit completed without action,config_audit,MW-JHB-SOW-HUB-02,20,3,10,
+CFG-NOISE-0003,2026-09-15T16:49,Telkom,PTA-HAT-011,PTA-HAT-011-C,RAN,pci_audit,PTA-HAT-011-C,PCI consistency check completed,config_audit,FIB-PTA-HAT-RING-01,300,1,8,

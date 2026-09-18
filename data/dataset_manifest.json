@@ -1,0 +1,20 @@
+{
+  "dataset_name": "Synthetic Telkom cell degradation NPM POC dataset",
+  "generated_at": "2026-09-16T12:38:51",
+  "seed": 260916,
+  "scenario": "Cell degradation at JHB-CBD-003-B caused by transport backhaul congestion",
+  "date_range": {
+    "start": "2026-09-14T00:00",
+    "end": "2026-09-15T23:45"
+  },
+  "row_counts": {
+    "network_kpis": 2304,
+    "performance_counters": 2304,
+    "alarms": 40,
+    "drive_test_logs": 318,
+    "customer_complaints": 68,
+    "topology_config_change_logs": 22,
+    "incident_summary": 1
+  },
+  "source_note": "Synthetic data generated for a POC because live Telkom operational data is not included."
+}

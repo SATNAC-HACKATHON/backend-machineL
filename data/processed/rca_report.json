@@ -1,0 +1,48 @@
+[
+  {
+    "cluster_id": "CL-0001",
+    "site_id": "JHB-CBD-003",
+    "cell_id": "JHB-CBD-003-B",
+    "start_timestamp": "2026-09-15T08:00",
+    "end_timestamp": "2026-09-15T14:45",
+    "predicted_root_cause": "Transport backhaul congestion",
+    "confidence_score": 1.0,
+    "ranked_candidates": [
+      {
+        "root_cause": "Transport backhaul congestion",
+        "score": 100.0,
+        "evidence": [
+          "Microwave transport degradation or CRC alarms are active.",
+          "S1-U packet loss alarm indicates user-plane transport impairment.",
+          "Packet loss is above the 2% operational threshold.",
+          "Transport discard counters are elevated.",
+          "A recent topology/config change exists before or during the degradation window."
+        ]
+      },
+      {
+        "root_cause": "Configuration-induced degradation",
+        "score": 80.0,
+        "evidence": [
+          "Recent config change detected: CFG-20260915-04521.",
+          "Alarms followed the change window.",
+          "KPI degradation followed the change window."
+        ]
+      },
+      {
+        "root_cause": "RF coverage or interference issue",
+        "score": 40.0,
+        "evidence": [
+          "Average RSRQ is poor.",
+          "Multiple drive test samples failed in the incident window."
+        ]
+      },
+      {
+        "root_cause": "Capacity congestion",
+        "score": 35.0,
+        "evidence": [
+          "PRB utilization is above 85%."
+        ]
+      }
+    ]
+  }
+]
