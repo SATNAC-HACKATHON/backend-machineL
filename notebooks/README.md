@@ -13,28 +13,15 @@ The POC shows how noisy multi-source network data can be converted into a clear 
 ## Project Structure
 
 ```text
-data/
-  raw/                         Synthetic source datasets
-  processed/                   Generated model outputs
-src/npm_poc/
-  data_loader.py               CSV loading and timestamp parsing
-  feature_engineering.py       Unified cell time-window feature table
-  detection.py                 Degradation and anomaly detection
-  clustering.py                Incident event clustering
-  root_cause.py                Explainable RCA scoring
-  reporting.py                 Facts / inference / recommendation report
-run_pipeline.py                End-to-end POC runner
-generate_telkom_cell_degradation_data.py
+data/raw/                    Synthetic source datasets
+data/processed/              Pipeline outputs the desk reads
+model/                       Saved classifier files
+notebooks/telkom_npm_poc_colab.ipynb
 ```
 
 ## Run The POC
 
-From the project root:
-
-```powershell
-python .\generate_telkom_cell_degradation_data.py
-python .\run_pipeline.py
-```
+The runnable pipeline is `notebooks/telkom_npm_poc_colab.ipynb`. Setup, the local virtual environment, and the Colab upload steps are in the repo README.
 
 ## Run In Google Colab
 

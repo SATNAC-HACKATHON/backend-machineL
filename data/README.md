@@ -26,10 +26,4 @@ The injected scenario is a Telkom LTE cell degradation at `JHB-CBD-003-B` on `20
 
 ## Regeneration
 
-Run this from the project root:
-
-```powershell
-python .\generate_telkom_cell_degradation_data.py
-```
-
-The generator uses a fixed seed (`260916`) so the same records are reproduced each time.
+The raw and processed files in this folder are the dataset. Seed `260916` is recorded in `dataset_manifest.json`. There is no generator script in the repo. To recompute detections, clusters, and the engineer report, run `notebooks/telkom_npm_poc_colab.ipynb` as described in the repo README. That notebook writes `*_colab` files here and leaves these files in place.
