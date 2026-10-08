@@ -1,0 +1,2 @@
+model,precision,recall,f1,flagged_windows
+Isolation Forest,0.65625,1.0,0.7924528301886793,32
